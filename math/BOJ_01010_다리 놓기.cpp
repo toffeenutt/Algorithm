@@ -4,7 +4,7 @@ int main()
 {
     std::cin.tie(NULL);
     std::ios::sync_with_stdio(false);
-    //이항계수의 점화식을 이용
+    //파스칼 삼각형 만들기
     int triangle[30][30];
     triangle[1][0] = 1;
     triangle[1][1] = 1;
