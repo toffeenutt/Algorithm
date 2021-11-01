@@ -16,7 +16,6 @@ int main()
 	std::cin.tie(NULL);
 	std::ios::sync_with_stdio(false);
 	
-	memset(cache, 0, 21 * 21 * 21);
 	int a, b, c;
 	std::cin >> a >> b >> c;
 	while (a != -1 || b != -1 || c != -1)
